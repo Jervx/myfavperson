@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=La+Belle+Aurore&family=Passions+Conflict&family=Poppins:wght@300&display=swap');
+@font-face { font-family:'Baybayin'; src:url(./Font/TagDoc93.ttf); } 
+
+* {
+  box-sizing: border-box;
+}
+
+.f1 {
+  font-family: "La Belle Aurore";
+  text-shadow: 1px 1px 50px pink;
+}
+
+.f2 {
+  font-family: 'Baybayin'
+}
+
+.APP {
+  background: url("./res/2.jpg");
+  background-size: cover;
+}
+
+.abscenter{
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.bgder {
+  background-color: linear-gradient(250deg, #f72f93, #f107a3);
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /*background: #f107a3;*/
+  /*background: linear-gradient(250deg, #f72f93, #f107a3);*/
+  background-color: #040010;
+  height: 100vh;
+  overflow: hidden;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; */
+}
+
+.App {
+  font-family: "Inter";
+}
+
+.ac {
+  line-height: 18px;
+  /*background: url(https://cdn.discordapp.com/attachments/912411399458795593/912421109033496607/255507009_599030401363383_8229144374327572442_n.png);*/
+  background: url("https://cdn.discordapp.com/attachments/912411399458795593/912411460443963462/ac.jpg");
+  font-family: "Poppins";
+  background-position: center;
+  background-size: cover;
+  text-align: justify;
+  display: inline-block;
+  -webkit-background-clip: text;
+  background-attachment: fixed;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+}

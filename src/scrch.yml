@@ -1,0 +1,57 @@
+import React, { useState } from "react";
+
+import { motion } from "framer-motion";
+
+export const Ac = () => {
+  const lyr =
+    "Umaga na sa ating duyan 'Wag nang mawawala Umaga na sa ating duyan Magmamahal, oh, mahiwaga Matang magkakilala Sa unang pagtagpo Paano dahan-dahang Sinuyo ang puso? Kay tagal ko nang nag-iisa And'yan ka lang pala Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Higit pa sa ligaya Hatid sa damdamin Lahat naunawaan Sa lalim ng tingin Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Sa minsang pagbali ng hangin Hinila patungo sa akin Tanging ika'y iibiging wagas at buo Payapa sa yakap ng iyong hiwaga Payapa sa yakap ng iyong... Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Mahiwaga 'Wag nang mawala araw-araw Mahiwaga Pipiliin ka araw-araw Umaga na sa ating duyan 'Wag nang mawawala Umaga na sa ating duyan Magmamahal, oh, mahiwaga Matang magkakilala Sa unang pagtagpo Paano dahan-dahang Sinuyo ang puso? Kay tagal ko nang nag-iisa And'yan ka lang pala Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Higit pa sa ligaya Hatid sa damdamin Lahat naunawaan Sa lalim ng tingin Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Sa minsang pagbali ng hangin Hinila patungo sa akin Tanging ika'y iibiging wagas at buo Payapa sa yakap ng iyong hiwaga Payapa sa yakap ng iyong... Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Mahiwaga 'Wag nang mawala araw-araw Mahiwaga Pipiliin ka araw-araw Umaga na sa ating duyan 'Wag nang mawawala Umaga na sa ating duyan Magmamahal, oh, mahiwaga Matang magkakilala Sa unang pagtagpo Paano dahan-dahang Sinuyo ang puso? Kay tagal ko nang nag-iisa And'yan ka lang pala Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Higit pa sa ligaya Hatid sa damdamin Lahat naunawaan Sa lalim ng tingin Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Sa minsang pagbali ng hangin Hinila patungo sa akin Tanging ika'y iibiging wagas at buo Payapa sa yakap ng iyong hiwaga Payapa sa yakap ng iyong... Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Mahiwaga 'Wag nang mawala araw-araw Mahiwaga Pipiliin ka araw-araw Umaga na sa ating duyan 'Wag nang mawawala Umaga na sa ating duyan Magmamahal, oh, mahiwaga Matang magkakilala Sa unang pagtagpo Paano dahan-dahang Sinuyo ang puso? Kay tagal ko nang nag-iisa And'yan ka lang pala Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Higit pa sa ligaya Hatid sa damdamin Lahat naunawaan Sa lalim ng tingin Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Sa minsang pagbali ng hangin Hinila patungo sa akin Tanging ika'y iibiging wagas at buo Payapa sa yakap ng iyong hiwaga Payapa sa yakap ng iyong... Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Mahiwaga 'Wag nang mawala araw-araw Mahiwaga Pipiliin ka araw-arawUmaga na sa ating duyan 'Wag nang mawawala Umaga na sa ating duyan Magmamahal, oh, mahiwaga Matang magkakilala Sa unang pagtagpo Paano dahan-dahang Sinuyo ang puso? Kay tagal ko nang nag-iisa And'yan ka lang pala Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Higit pa sa ligaya Hatid sa damdamin Lahat naunawaan Sa lalim ng tingin Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Sa minsang pagbali ng hangin Hinila patungo sa akin Tanging ika'y iibiging wagas at buo Payapa sa yakap ng iyong hiwaga Payapa sa yakap ng iyong... Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Mahiwaga 'Wag nang mawala araw-araw Mahiwaga Pipiliin ka araw-araw Umaga na sa ating duyan 'Wag nang mawawala Umaga na sa ating duyan Magmamahal, oh, mahiwaga Matang magkakilala Sa unang pagtagpo Paano dahan-dahang Sinuyo ang puso? Kay tagal ko nang nag-iisa And'yan ka lang pala Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Higit pa sa ligaya Hatid sa damdamin Lahat naunawaan Sa lalim ng tingin Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Sa minsang pagbali ng hangin Hinila patungo sa akin Tanging ika'y iibiging wagas at buo Payapa sa yakap ng iyong hiwaga Payapa sa yakap ng iyong... Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Mahiwaga 'Wag nang mawala araw-araw Mahiwaga Pipiliin ka araw-araw Umaga na sa ating duyan 'Wag nang mawawala Umaga na sa ating duyan Magmamahal, oh, mahiwaga Matang magkakilala Sa unang pagtagpo Paano dahan-dahang Sinuyo ang puso? Kay tagal ko nang nag-iisa And'yan ka lang pala Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Higit pa sa ligaya Hatid sa damdamin Lahat naunawaan Sa lalim ng tingin Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Sa minsang pagbali ng hangin Hinila patungo sa akin Tanging ika'y iibiging wagas at buo Payapa sa yakap ng iyong hiwaga Payapa sa yakap ng iyong... Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Mahiwaga 'Wag nang mawala araw-araw Mahiwaga Pipiliin ka araw-araw Umaga na sa ating duyan 'Wag nang mawawala Umaga na sa ating duyan Magmamahal, oh, mahiwaga Matang magkakilala Sa unang pagtagpo Paano dahan-dahang Sinuyo ang puso? Kay tagal ko nang nag-iisa And'yan ka lang pala Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Higit pa sa ligaya Hatid sa damdamin Lahat naunawaan Sa lalim ng tingin Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Sa minsang pagbali ng hangin Hinila patungo sa akin Tanging ika'y iibiging wagas at buo Payapa sa yakap ng iyong hiwaga Payapa sa yakap ng iyong... Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Mahiwaga 'Wag nang mawala araw-araw Mahiwaga Pipiliin ka araw-araw Umaga na sa ating duyan 'Wag nang mawawala Umaga na sa ating duyan Magmamahal, oh, mahiwaga Matang magkakilala Sa unang pagtagpo Paano dahan-dahang Sinuyo ang puso? Kay tagal ko nang nag-iisa And'yan ka lang pala Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Higit pa sa ligaya Hatid sa damdamin Lahat naunawaan Sa lalim ng tingin Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Sa minsang pagbali ng hangin Hinila patungo sa akin Tanging ika'y iibiging wagas at buo Payapa sa yakap ng iyong hiwaga Payapa sa yakap ng iyong... Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Mahiwaga 'Wag nang mawala araw-araw Mahiwaga Pipiliin ka araw-araw Umaga na sa ating duyan 'Wag nang mawawala Umaga na sa ating duyan Magmamahal, oh, mahiwaga Matang magkakilala Sa unang pagtagpo Paano dahan-dahang Sinuyo ang puso? Kay tagal ko nang nag-iisa And'yan ka lang pala Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Higit pa sa ligaya Hatid sa damdamin Lahat naunawaan Sa lalim ng tingin Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Sa minsang pagbali ng hangin Hinila patungo sa akin Tanging ika'y iibiging wagas at buo Payapa sa yakap ng iyong hiwaga Payapa sa yakap ng iyong... Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Mahiwaga 'Wag nang mawala araw-araw Mahiwaga Pipiliin ka araw-araw Umaga na sa ating duyan 'Wag nang mawawala Umaga na sa ating duyan Magmamahal, oh, mahiwaga Matang magkakilala Sa unang pagtagpo Paano dahan-dahang Sinuyo ang puso? Kay tagal ko nang nag-iisa And'yan ka lang pala Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Higit pa sa ligaya Hatid sa damdamin Lahat naunawaan Sa lalim ng tingin Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Sa minsang pagbali ng hangin Hinila patungo sa akin Tanging ika'y iibiging wagas at buo Payapa sa yakap ng iyong hiwaga Payapa sa yakap ng iyong... Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Mahiwaga 'Wag nang mawala araw-araw Mahiwaga Pipiliin ka araw-araw Umaga na sa ating duyan 'Wag nang mawawala Umaga na sa ating duyan Magmamahal, oh, mahiwaga Matang magkakilala Sa unang pagtagpo Paano dahan-dahang Sinuyo ang puso? Kay tagal ko nang nag-iisa And'yan ka lang pala Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Higit pa sa ligaya Hatid sa damdamin Lahat naunawaan Sa lalim ng tingin Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Sa minsang pagbali ng hangin Hinila patungo sa akin Tanging ika'y iibiging wagas at buo Payapa sa yakap ng iyong hiwaga Payapa sa yakap ng iyong... Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Mahiwaga 'Wag nang mawala araw-araw Mahiwaga Pipiliin ka araw-arawUmaga na sa ating duyan 'Wag nang mawawala Umaga na sa ating duyan Magmamahal, oh, mahiwaga Matang magkakilala Sa unang pagtagpo Paano dahan-dahang Sinuyo ang puso? Kay tagal ko nang nag-iisa And'yan ka lang pala Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Higit pa sa ligaya Hatid sa damdamin Lahat naunawaan Sa lalim ng tingin Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Sa minsang pagbali ng hangin Hinila patungo sa akin Tanging ika'y iibiging wagas at buo Payapa sa yakap ng iyong hiwaga Payapa sa yakap ng iyong... Mahiwaga Pipiliin ka sa araw-araw Mahiwaga Ang nadarama sa 'yo'y malinaw Mahiwaga 'Wag nang mawala araw-araw Mahiwaga Pipiliin ka araw-araw".split(
+      " "
+    );
+  console.log(lyr);
+
+  const [show, setShow] = useState(false);
+
+  const showit = () => {
+    setShow(true);
+  };
+
+  const sec = (min, max) => {
+    return Math.random() * (max - min) + min;
+  };
+
+  return (
+    <div>
+      <motion.div
+        initial={{ opacity: 1, y: window.innerHeight / 2 - 100 }}
+        animate={{ opacity: 0 }}
+        transition={{ delay: 2, duration: 1.75 }}
+        onAnimationComplete={showit}
+        className="my-4 flex justify-center"
+      >
+        <h1 className=" text-center  pb-4">
+          <span className="f1 text-4xl text-pink-300">I Love You AC </span>
+        </h1>
+      </motion.div>
+      <motion.p
+        className="ac justify-between bg-ac break-all text-sm text-justify"
+      >
+        {show &&
+          lyr.map((itm, idx) => {
+            return sec(1, 4) > 2 ? (
+              <span className="text-justify break-all ">{itm}</span>
+            ) : (
+              <motion.span
+                initial={{ opacity: 0, y: 5 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 2.5 }}
+                className="text-justify break-all "
+                style={{ display: "inline-block" }}
+              >
+                {itm + " "}
+              </motion.span>
+            );
+          })}
+      </motion.p>
+    </div>
+  );
+};
